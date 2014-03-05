@@ -1,0 +1,41 @@
+<head>
+    <title>ScoutingTrain 2014 -- Intro</title>
+
+    <link href="style.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.plugin.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+    <!-- <link rel="stylesheet" href="js/jquery.countdown.css"> -->
+
+    <script>
+        $(function () {
+            var austDay = new Date(2014, 8 - 1, 1);
+            $('#defaultCountdown').countdown({
+                until: austDay,
+                layout: '<div class="days">{dn} days</div> <div class="time">{hn}{sep}{mn}{sep}{sn}</div>',
+                padZeroes: true,
+                expiryText: 'fill me in!'
+            });
+            $('#year').text(austDay.getFullYear());
+        });
+    </script>
+</head>
+<body>
+    <div class="background"></div>
+    <div id="header">
+        <div id="logo">
+            <img src="img/logo.gif" alt="">
+        </div>
+        <div id="tagline">
+            <a href="">
+                Einsteigen bitte! Der Zug fährt ab! Jetzt auf StartNext Fan werden!
+                All aboard, please! The train is departing! Become a fan on StartNext now!
+            </a>
+        </div>
+    </div>
+    <div class="countdown">
+        <div id="defaultCountdown" class="absolute-center"></div>
+    </div>
+</body>
