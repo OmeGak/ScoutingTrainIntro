@@ -12,7 +12,7 @@ div.background {
     position: fixed;
     z-index: -1;
 
-    background: url(img/bg_bw.jpg) no-repeat center center fixed;
+    background: url(img/bg.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -34,21 +34,25 @@ div.background {
     background: white;
 }
 
-div.countdown {
+.countdown {
     font-family: Roboto;
     font-size: 4em;
-    color: #cd071e;
-    opacity: 0.8;
+    color: white;
+    opacity: 0.9;
     text-align: center;
     text-shadow: 2px 2px 1px rgba(60, 60, 60, 0.9);
     width: 100%;
 }
 
 .countdown .days {
+    /*background: rgba(255, 255, 255, 0.1);*/
+    background: rgba(0, 0, 0, 0.4);
     font-size: 2em;
 }
 
 .countdown .time {
+    /*background: rgba(255, 255, 255, 0.1);*/
+    background: rgba(0, 0, 0, 0.4);
     font-size: 0.5em;
 }
 
