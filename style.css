@@ -53,20 +53,18 @@ div.background {
 }
 
 .countdown .days {
-    /*background: rgba(255, 255, 255, 0.1);*/
     background: rgba(0, 0, 0, 0.4);
     font-size: 2em;
 }
 
 .countdown .time {
-    /*background: rgba(255, 255, 255, 0.1);*/
     background: rgba(0, 0, 0, 0.4);
     font-size: 0.5em;
 }
 
-.absolute-center {
+.bottom-center {
     margin: auto;
     position: absolute;
-    /*top: 50%; */
-    left: 0; bottom: 70px; right: 0;
+    bottom: 70px;
+    left: 0; right: 0;
 }
