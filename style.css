@@ -26,7 +26,15 @@ div.background {
 
 #logo img {
     display: inline-block;
-    width: 50%;
+    background: rgba(255, 255, 255, 0.9);
+    min-width: 400px;
+    width: 30%;
+    margin: 3%;
+}
+
+#logo img:hover {
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: 2px 2px 5px #888888;
 }
 
 #tagline {
@@ -59,5 +67,6 @@ div.background {
 .absolute-center {
     margin: auto;
     position: absolute;
-    top: 50%; left: 0; bottom: 0; right: 0;
+    /*top: 50%; */
+    left: 0; bottom: 70px; right: 0;
 }
