@@ -12,7 +12,7 @@ div.background {
     position: fixed;
     z-index: -1;
 
-    background: url(img/bg.jpg) no-repeat center center fixed;
+    background: url(img/bg_bw.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -37,9 +37,10 @@ div.background {
 div.countdown {
     font-family: Roboto;
     font-size: 4em;
-    color: red;
-    opacity: 0.7;
+    color: #cd071e;
+    opacity: 0.8;
     text-align: center;
+    text-shadow: 2px 2px 1px rgba(60, 60, 60, 0.9);
     width: 100%;
 }
 
